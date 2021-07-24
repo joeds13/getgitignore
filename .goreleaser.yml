@@ -25,3 +25,16 @@ changelog:
     exclude:
       - "^docs:"
       - "^test:"
+brews:
+  - name: getgitignore
+    license: "MIT"
+    description: "Tool to get Git Ignore files from GitHub GitIgnore"
+    homepage: "https://github.com/joeds13/getgitignore"
+    tap:
+      owner: joeds13
+      name: homebrew-tap
+    folder: Formula
+    test: |
+      system "#{bin}/getgitignore version"
+    install: |
+      bin.install "getgitignore"
