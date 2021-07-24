@@ -2,6 +2,12 @@
 
 Tool to get Git Ignore files from [GitHub GitIgnore](https://github.com/github/gitignore)
 
+## Install
+
+`brew install joeds13/tap/getgitignore`
+
+Or `brew tap joeds13/tap` and then `brew install getgitignore`
+
 ## Features
 
 * Outputs to stdout by default
